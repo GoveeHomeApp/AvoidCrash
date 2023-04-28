@@ -1,0 +1,35 @@
+{
+  "name": "AvoidCrash",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "version": "2.5.1",
+  "summary": "This framework can avoid Foundation framework potential crash danger",
+  "homepage": "https://github.com/chenfanfang/AvoidCrash",
+  "license": "MIT",
+  "authors": {
+    "陈蕃坊": "493336001@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/chenfanfang/AvoidCrash.git",
+    "tag": "2.5.1"
+  },
+  "requires_arc": [
+    "AvoidCrash/AvoidCrash.m",
+    "AvoidCrash/AvoidCrashStubProxy.m",
+    "AvoidCrash/NSObject+AvoidCrash.m",
+    "AvoidCrash/NSArray+AvoidCrash.m",
+    "AvoidCrash/NSDictionary+AvoidCrash.m",
+    "AvoidCrash/NSMutableDictionary+AvoidCrash.m",
+    "AvoidCrash/NSString+AvoidCrash.m",
+    "AvoidCrash/NSMutableString+AvoidCrash.m",
+    "AvoidCrash/NSAttributedString+AvoidCrash.m",
+    "AvoidCrash/NSMutableAttributedString+AvoidCrash.m"
+  ],
+  "static_framework": true,
+  "vendored_frameworks": "AvoidCrash.xcframework",
+  "ios": {
+    "public_header_files": "AvoidCrash.xcframework/ios-arm64/*/Headers/*.h",
+    "source_files": "AvoidCrash.xcframework/ios-arm64/*/Headers/*.h"
+  }
+}
